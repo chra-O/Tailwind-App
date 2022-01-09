@@ -9,6 +9,7 @@ function App() {
       <Nav />
       <Hero />
       <Step />
+      <div id="fotter"></div>
     </div>
   );
 }
