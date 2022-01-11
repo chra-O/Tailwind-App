@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/Help" element={<Help />} />
       </Routes>
-      <div id="fotter"></div>
+      {/* <div id="fotter"></div> */}
     </div>
   );
 }
