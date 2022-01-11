@@ -110,12 +110,13 @@ export default function Nav() {
             >
               Help
             </a>
-            <a
-              href="#"
+
+            <Link
               className="text-base font-medium text-gray-500 hover:text-gray-900"
+              to="/Contact"
             >
               Contact
-            </a>
+            </Link>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <Link
