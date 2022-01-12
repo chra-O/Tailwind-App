@@ -8,11 +8,6 @@ export default function Help() {
       description:
         "Solid walnut base with rare earth magnets and powder coated steel card cover",
     },
-    // { name: "", description: '6.25" x 3.55" x 1.15"' },
-    // {
-    //   name: "Finish",
-    //   description: "Hand sanded and finished with natural oil",
-    // },
   ];
   return (
     <>
@@ -43,8 +38,7 @@ export default function Help() {
             </dl>
           </div>
           <div className="w-96 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-            <img src="https://cdn-icons-png.flaticon.com/512/6556/6556550.png" />
-          
+            <img src="https://cdn-icons-png.flaticon.com/512/6556/6556550.png"  alt="t"/>
           </div>
         </div>
       </div>
