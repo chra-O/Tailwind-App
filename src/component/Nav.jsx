@@ -108,7 +108,7 @@ export default function Nav() {
               className="text-base font-medium text-gray-500 hover:text-gray-900"
               to="/Help"
             >
-              Help
+           About
             </Link>
             <Link
               className="text-base font-medium text-gray-500 hover:text-gray-900"
