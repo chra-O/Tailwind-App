@@ -8,6 +8,7 @@ import Contact from "./component/Contact";
 import Help from "./component/Help";
 import Product from "./component/Product";
 import ForgetPass from "./component/ForgetPass";
+import Show from "./component/Show";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/Help" element={<Help />} />
         <Route exact path="/product" element={<Product />} />
         <Route exact path="/forgetPass" element={<ForgetPass />} />
+        <Route exact path="/show" element={<Show />} />
       </Routes>
     </div>
   );

@@ -36,7 +36,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-14 ml-52">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2  md:gap-y-10">
             {features.map((feature) => (
               <div key={feature.name} className="relative">
                 <dt>
