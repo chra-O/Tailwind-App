@@ -12,7 +12,7 @@ export default function Card() {
             alt="Mountain"
           />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Mountain</div>
+            <div class="font-bold text-xl mb-2">name</div>
             <p class="text-gray-700 text-base">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>

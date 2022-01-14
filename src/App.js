@@ -8,13 +8,12 @@ import Contact from "./component/Contact";
 import Help from "./component/Help";
 import Product from "./component/Product";
 import ForgetPass from "./component/ForgetPass";
-import Show from "./component/Show";
+import ShowComponent from "./component/ShowComponent";
 
 function App() {
   return (
     <div>
       <Nav />
-
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/SignIn" element={<SignIn />} />
@@ -23,7 +22,7 @@ function App() {
         <Route exact path="/Help" element={<Help />} />
         <Route exact path="/product" element={<Product />} />
         <Route exact path="/forgetPass" element={<ForgetPass />} />
-        <Route exact path="/show" element={<Show />} />
+        <Route exact path="/show" element={<ShowComponent />} />
       </Routes>
     </div>
   );
