@@ -10,6 +10,8 @@ import Product from "./component/Product";
 import ForgetPass from "./component/ForgetPass";
 import ShowComponent from "./component/ShowComponent";
 
+import DetailComponent from "./component/DetailComponent";
+
 function App() {
   return (
     <div>
@@ -23,6 +25,7 @@ function App() {
         <Route exact path="/product" element={<Product />} />
         <Route exact path="/forgetPass" element={<ForgetPass />} />
         <Route exact path="/show" element={<ShowComponent />} />
+        <Route exact path="/detailrPage" element={<DetailComponent />} />
       </Routes>
     </div>
   );
