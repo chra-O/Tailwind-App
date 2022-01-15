@@ -1,12 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-#fotter{
-    height: 300px;
-}
-.activeNav{
-    color: brown;
-}
-.notActv{
-    color: black;
-}
+/*  */

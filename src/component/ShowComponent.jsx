@@ -1,12 +1,12 @@
-import React from 'react'
-import Show from './Show'
+import React from "react";
+import Show from "./Show";
 
 export default function ShowComponent() {
-    return (
-        <div>
-            <Show/>
-            <Show/>
-            <Show/>
-        </div>
-    )
+  return (
+    <div>
+      <Show name="Hotel" desc="ljhhhhhhhhhhhhhhhhhhhhhhhhh" />
+      <Show />
+      <Show />
+    </div>
+  );
 }
