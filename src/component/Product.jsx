@@ -5,7 +5,6 @@ export default function Product() {
   return (
     <>
       <div className="flex grid grid-cols-4  mt-36 ">
-       
         <Card
           title="Sulaymaniyah "
           img=" https://pbs.twimg.com/media/CxU5qRfXcAAUkHj.jpg"

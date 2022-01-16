@@ -5,8 +5,8 @@ export default function ShowComponent() {
   return (
     <div>
       <Show name="Hotel" desc="ljhhhhhhhhhhhhhhhhhhhhhhhhh" />
-      <Show />
-      <Show />
+      <Show name="Hotel" desc="ljhhhhhhhhhhhhhhhhhhhhhhhhh" />
+      <Show name="Hotel" desc="ljhhhhhhhhhhhhhhhhhhhhhhhhh" />
     </div>
   );
 }
